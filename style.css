@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 25px;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 12px 55px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.removeBtn{
+    display: none;
+}
+.ipDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.ipDetails ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.map{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60vh;
+
+}
+#timezone h3{
+    margin: 9px 0;
+}
+#timezone{
+    margin: 45px 0;
+}
+#searchBoxed{
+    width: 100%;
+    box-sizing: border-box;
+}
+#searchBoxed input{
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 15px;
+    border: 2px solid black;
+    width: 100%;
+}
+#postOfficeList{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#postOfficeList ul{
+    width: 500px;
+    margin: 15px 0;
+    list-style: none;
+    border: 2px solid black;
+}
+#postOfficeList ul{
+    padding: 25px;
+}
+#postOfficeList ul li{
+    /* border: 1px solid red; */
+    margin: 15px 0;
+    font-size: 20px;
+
+}
