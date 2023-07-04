@@ -14,6 +14,10 @@ function getUserInfo() {
           const lon = data.loc.split(",")[1];
           const timezone = data.timezone;
           const pincode = data.postal;
+//          console.log(timeZone);
+//          console.log(pincode);
+//          console.log(lat);
+//          console.log(lon);
 
           showLocationOnMap(lat, lon, data);
           showTimezone(timezone, pincode);
@@ -65,6 +69,7 @@ function showTimezone(timezone, pincode) {
       const postOffices = data[0].PostOffice;
       postOffices.forEach((element) => {
         pincodeCount++;
+//        console.log(pincodeCount)
       });
 
       console.log(pincodeCount);
