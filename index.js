@@ -72,9 +72,10 @@ function showTimezone(timezone, pincode) {
 //        console.log(pincodeCount)
       });
 
-      console.log(pincodeCount);
+//      console.log(pincodeCount);
 
       //   console.log(timezone);
+      console.log("org_author : https://github.com/satish-kg")
       const timezoneElement = document.getElementById("timezone");
       let currentTime = new Date().toLocaleString("en-US", {
         timeZone: timezone,
