@@ -22,6 +22,7 @@ function getUserInfo() {
           showLocationOnMap(lat, lon, data);
           showTimezone(timezone, pincode);
           getPostOffices(pincode);
+          document.getElementById("warning-adblock").innerText = "";
 
           // console.log(data);
         })
@@ -29,6 +30,7 @@ function getUserInfo() {
           console.log("Error:", error);
         });
     });
+    
 }
 
 function showLocationOnMap(lat, lon, data) {
